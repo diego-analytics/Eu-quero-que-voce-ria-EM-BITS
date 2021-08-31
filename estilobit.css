@@ -12,6 +12,7 @@
       padding: 30px;
       font-size: 14px;
       font-style: italic;
+      text-align: center;
   }
 
   /* Slides */
@@ -29,14 +30,15 @@
     position: absolute;
     top: 50%;
     width: auto;
-    margin-top: -40px;
-    margin-left: -20px;
-    padding: 0px;
+    margin-top: -80px;
+    margin-right: 20px;
+    padding: 10px;
     color: rgba(0, 0, 0, 0.8);
     font-weight: bold;
     font-size: 30px;
     border-radius: 0 3px 3px 0;
     user-select: none;
+    right: 0;
   }
   
   /* Position the "next button" to the right */
