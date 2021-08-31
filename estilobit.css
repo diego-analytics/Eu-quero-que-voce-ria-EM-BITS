@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+.espaco-poema {
+    position: relative;
+    background: #ffffff;
+    padding: 30px;
+    margin-top: 30px;
+  }
+  
+  #inst {
+      font-family:'VT323', monospace;
+      padding: 30px;
+      font-size: 14px;
+      font-style: italic;
+  }
+
+  /* Slides */
+  .versos {
+    display: none;
+    padding: 30px;
+    text-align: center;
+    font-family: 'VT323', monospace;
+    font-size: larger;
+  }
+  
+  /* Next & previous buttons */
+  .anter, .prox {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -40px;
+    margin-left: -20px;
+    padding: 0px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .prox {
+    position: absolute;
+    /* right: 0; */
+    border-radius: 3px 0 0 3px;
+  }
+
+  .anter {
+    position: absolute;
+    margin-top: 80px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .anter:hover, .prox:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+
+  #flor {
+      font-size: 40px;
+  }
+
+  #baixo {
+      font-family: 'VT323', monospace;
+        margin-top: 170px;
+        text-align: right;
+  }
